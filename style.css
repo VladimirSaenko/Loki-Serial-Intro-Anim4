@@ -1,0 +1,649 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none !important;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(4, 4, 23);
+    text-align: center;
+    color: rgb(29, 222, 228);
+    overflow: hidden;
+    /* background: black; */
+}
+
+.box .mainletters span {
+    font-size: 200px;
+    letter-spacing: 20px;
+}
+
+.box .smallletters span {
+    font-size: 100px;
+    letter-spacing: 20px;
+}
+
+#letter1 {
+    animation: animLetter1 11s infinite;
+}
+
+#letter2 {
+    animation: animLetter2 15s infinite;
+}
+
+#letter3 {
+    animation: animLetter3 8.7s infinite;
+}
+
+#letter4 {
+    animation: animLetter4 12s infinite;
+}
+
+#letter5 {
+    animation: animLetter5 6s infinite;
+}
+
+#letter6 {
+    animation: animLetter6 12s infinite;
+}
+
+#letter7 {
+    animation: animLetter7 6s infinite;
+}
+
+#letter8 {
+    animation: animLetter8 5s infinite;
+}
+
+#letter9 {
+    animation: animLetter9 11s infinite;
+}
+
+#letter10 {
+    animation: animLetter10 10s infinite;
+}
+
+#letter11 {
+    animation: animLetter11 6s infinite;
+}
+
+@keyframes animLetter1 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Diplomata SC', cursive;
+        color: aqua;
+    }
+
+    20% {
+        font-family: 'Bungee Shade', cursive;
+        color: #6ba7cc;
+    }
+
+    30% {
+        font-family: 'Seaweed Script', cursive;
+        color: gray;
+    }
+
+    40% {
+        font-family: 'Sevillana', cursive;
+        color: green;
+    }
+
+    50% {
+        font-family: 'Akronim', cursive;
+        color: rgb(246, 0, 16);
+    }
+
+    60% {
+        font-family: 'Eater', cursive;
+    }
+
+    70% {
+        font-family: 'Mountains of Christmas', cursive;
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    90% {
+        font-family: 'Monoton', cursive;
+    }
+
+    100% {
+        font-family: 'Codystar', cursive;
+    }
+}
+
+@keyframes animLetter2 {
+    0% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    10% {
+        font-family: 'Cinzel Decorative', cursive;
+        color: #c77b17;
+    }
+
+    30% {
+        font-family: 'Monoton', cursive;
+        color: #7b9095;
+    }
+
+    40% {
+        font-family: 'Press Start 2P', cursive;
+        color: #7b9095;
+    }
+
+    50% {
+        font-family: 'Lobster', cursive;
+        color: #6ba7cc;
+    }
+
+    60% {
+        font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    70% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    80% {
+        font-family: 'Diplomata SC', cursive;
+    }
+
+    90% {
+        font-family: 'Almendra Display', cursive;
+    }
+
+    100% {
+        font-family: 'Seaweed Script', cursive;
+    }
+}
+
+@keyframes animLetter3 {
+    0% {
+        font-family: 'Cinzel Decorative', cursive;
+    }
+
+    10% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    20% {
+        font-family: 'Nosifer', cursive;
+    }
+
+    30% {
+        font-family: 'Seaweed Script', cursive;
+        color: #ffdf00;
+    }
+
+    40% {
+        font-family: 'Diplomata SC', cursive;
+        color: yellow;
+    }
+
+    50% {
+        font-family: 'Monofett', cursive;
+        color: olive;
+    }
+
+    60% {
+        font-family: 'Monoton', cursive;
+    }
+
+    70% {
+        font-family: 'Akronim', cursive;
+        color: #7b9095;
+    }
+
+    80% {
+        font-family: 'Press Start 2P', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    90% {
+        font-family: 'Lobster', cursive;
+    }
+
+    100% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+}
+
+@keyframes animLetter4 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Dynalight', cursive;
+        color: #7b9095;
+    }
+
+    20% {
+        font-family: 'Flavors', cursive;
+        color: orange;
+    }
+
+    30% {
+        font-family: 'Press Start 2P', cursive;
+        color: #ffdf00;
+    }
+
+    40% {
+        font-family: 'Monoton', cursive;
+    }
+
+    50% {
+        font-family: 'Codystar', cursive;
+    }
+
+    60% {
+        font-family: 'Nosifer', cursive;
+        color: lightskyblue;
+    }
+
+    70% {
+        font-family: 'Lobster', cursive;
+        color: #6ba7cc;
+    }
+
+    80% {
+        font-family: 'Almendra Display', cursive;  
+    }
+
+    90% {
+        font-family: 'Cinzel Decorative', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    100% {
+        font-family: 'Faster One', cursive;
+    }
+}
+
+@keyframes animLetter5 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Dynalight', cursive;
+        color: #7b9095;
+    }
+
+    20% {
+        font-family: 'Flavors', cursive;
+        color: orange;
+    }
+
+    30% {
+        font-family: 'Press Start 2P', cursive;
+        color: #ffdf00;
+    }
+
+    40% {
+        font-family: 'Monoton', cursive;
+    }
+
+    50% {
+        font-family: 'Codystar', cursive;
+    }
+
+    60% {
+        font-family: 'Nosifer', cursive;
+        color: lightskyblue;
+    }
+
+    70% {
+        font-family: 'Lobster', cursive;
+        color: #6ba7cc;
+    }
+
+    80% {
+        font-family: 'Almendra Display', cursive;
+    }
+
+    90% {
+        font-family: 'Cinzel Decorative', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    100% {
+        font-family: 'Faster One', cursive;
+    }
+}
+
+@keyframes animLetter6 {
+    0% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    10% {
+        font-family: 'Cinzel Decorative', cursive;
+        color: #c77b17;
+    }
+
+    30% {
+        font-family: 'Monoton', cursive;
+        color: #7b9095;
+    }
+
+    40% {
+        font-family: 'Press Start 2P', cursive;
+        color: #7b9095;
+    }
+
+    50% {
+        font-family: 'Lobster', cursive;
+        color: #6ba7cc;
+    }
+
+    60% {
+        font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    70% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    80% {
+        font-family: 'Diplomata SC', cursive;
+    }
+
+    90% {
+        font-family: 'Almendra Display', cursive;
+    }
+
+    100% {
+        font-family: 'Seaweed Script', cursive;
+    }
+}
+
+@keyframes animLetter7 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Diplomata SC', cursive;
+        color: aqua;
+    }
+
+    20% {
+        font-family: 'Bungee Shade', cursive;
+        color: #6ba7cc;
+    }
+
+    30% {
+        font-family: 'Seaweed Script', cursive;
+        color: gray;
+    }
+
+    40% {
+        font-family: 'Sevillana', cursive;
+        color: green;
+    }
+
+    50% {
+        font-family: 'Akronim', cursive;
+        color: rgb(246, 0, 16);
+    }
+
+    60% {
+        font-family: 'Eater', cursive;
+        color: #6ba7cc;
+    }
+
+    70% {
+        font-family: 'Mountains of Christmas', cursive;
+        color: rgb(207, 129, 26);
+    }
+
+    80% {
+        font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    90% {
+        font-family: 'Monoton', cursive;
+        color: white;
+    }
+
+    100% {
+        font-family: 'Codystar', cursive;
+    }
+}
+
+@keyframes animLetter8 {
+    0% {
+        font-family: 'Cinzel Decorative', cursive;
+    }
+
+    10% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    20% {
+        font-family: 'Nosifer', cursive;
+    }
+
+    30% {
+        font-family: 'Seaweed Script', cursive;
+        color: #ffdf00;
+    }
+
+    40% {
+        font-family: 'Diplomata SC', cursive;
+        color: yellow;
+    }
+
+    50% {
+        font-family: 'Monofett', cursive;
+        color: olive;
+    }
+
+    60% {
+        font-family: 'Monoton', cursive;
+    }
+
+    70% {
+        font-family: 'Akronim', cursive;
+        color: #7b9095;
+    }
+
+    80% {
+        font-family: 'Press Start 2P', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    90% {
+        font-family: 'Lobster', cursive;
+    }
+
+    100% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+}
+
+@keyframes animLetter9 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Dynalight', cursive;
+        color: #7b9095;
+    }
+
+    20% {
+        font-family: 'Flavors', cursive;
+        color: orange;
+    }
+
+    30% {
+        font-family: 'Press Start 2P', cursive;
+        color: #ffdf00;
+    }
+
+    40% {
+        font-family: 'Monoton', cursive;
+    }
+
+    50% {
+        font-family: 'Codystar', cursive;
+    }
+
+    60% {
+        font-family: 'Nosifer', cursive;
+        color: lightskyblue;
+    }
+
+    70% {
+        font-family: 'Lobster', cursive;
+        color: #6ba7cc;
+    }
+
+    80% {
+        font-family: 'Almendra Display', cursive;  
+    }
+
+    90% {
+        font-family: 'Cinzel Decorative', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    100% {
+        font-family: 'Faster One', cursive;
+    }
+}
+
+@keyframes animLetter10 {
+    0% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    10% {
+        font-family: 'Cinzel Decorative', cursive;
+        color: #c77b17;
+    }
+
+    30% {
+        font-family: 'Monoton', cursive;
+        color: #7b9095;
+    }
+
+    40% {
+        font-family: 'Press Start 2P', cursive;
+        color: #7b9095;
+    }
+
+    50% {
+        font-family: 'Lobster', cursive;
+        color: #6ba7cc;
+    }
+
+    60% {
+        font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    70% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    80% {
+        font-family: 'Diplomata SC', cursive;
+    }
+
+    90% {
+        font-family: 'Almendra Display', cursive;
+    }
+
+    100% {
+        font-family: 'Seaweed Script', cursive;
+    }
+}
+
+@keyframes animLetter11 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Diplomata SC', cursive;
+        color: aqua;
+    }
+
+    20% {
+        font-family: 'Bungee Shade', cursive;
+        color: #6ba7cc;
+    }
+
+    30% {
+        font-family: 'Seaweed Script', cursive;
+        color: gray;
+    }
+
+    40% {
+        font-family: 'Sevillana', cursive;
+        color: green;
+    }
+
+    50% {
+        font-family: 'Akronim', cursive;
+        color: rgb(246, 0, 16);
+    }
+
+    60% {
+        font-family: 'Eater', cursive;
+    }
+
+    70% {
+        font-family: 'Mountains of Christmas', cursive;
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
+    }
+
+    90% {
+        font-family: 'Monoton', cursive;
+    }
+
+    100% {
+        font-family: 'Codystar', cursive;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .box .mainletters span {
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+
+    .box .smallletters span {
+        font-size: 45px;
+        letter-spacing: -3px;
+    }
+}
